@@ -1,0 +1,167 @@
+
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    text-align:center;
+    justify-content:center;
+    overflow:hidden;
+    font-family:Georgia (serif);
+  }
+  #navbar{
+    background-color:yellow;
+    margin:0;
+    height:55em;
+    min-width:15em;}
+  .nav-link{
+  text-decoration:none;
+  color:black;}
+  #navbar li{
+    min-width:10em;
+    
+  list-style-type:none;
+  
+  }#navbar ul{
+    padding:1em;
+    width:5em;
+    text-align:left;
+  }
+  
+  #navbar li{
+    padding:0.8em;
+  
+    width:100%;
+    border-bottom:0.08em solid black;
+  }
+  #main-doc{
+    height:50em;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    text-align:left;
+  
+  }
+  p{
+  
+    margin:1em;
+    padding:1em;
+  }
+  header{
+     font-weight:bold;
+    padding:1em;
+    font-size:1.2em;
+  }
+  #main-doc ul{
+    margin:1em;
+    padding:1em;
+  
+  }
+  code{
+    display:block;
+    margin:2em;
+    padding:1em;
+    background-color:#D3D3D3;
+  }
+  @media  only screen and  (max-width:500px){
+    body{
+      flex-direction:column;
+      overflow:scroll;
+    }
+    #navbar{
+      display:flex;
+      
+      flex-direction:column;
+      justify-contrent:center;
+      align-items:center;
+      
+    }#navbar ul{
+      min-width:100%;
+  }
+  }
+
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    text-align:center;
+    justify-content:center;
+    overflow:hidden;
+    font-family:Georgia (serif);
+  }
+  #navbar{
+    background-color:yellow;
+    margin:0;
+    height:55em;
+    min-width:15em;}
+  .nav-link{
+  text-decoration:none;
+  color:black;}
+  #navbar li{
+    min-width:10em;
+    
+  list-style-type:none;
+  
+  }#navbar ul{
+    padding:1em;
+    width:5em;
+    text-align:left;
+  }
+  
+  #navbar li{
+    padding:0.8em;
+  
+    width:100%;
+    border-bottom:0.08em solid black;
+  }
+  #main-doc{
+    height:50em;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    text-align:left;
+  
+  }
+  p{
+  
+    margin:1em;
+    padding:1em;
+  }
+  header{
+     font-weight:bold;
+    padding:1em;
+    font-size:1.2em;
+  }
+  #main-doc ul{
+    margin:1em;
+    padding:1em;
+  
+  }
+  code{
+    display:block;
+    margin:2em;
+    padding:1em;
+    background-color:#D3D3D3;
+  }
+  @media  only screen and  (max-width:500px){
+    body{
+      flex-direction:column;
+      overflow:scroll;
+    }
+    #navbar{
+      display:flex;
+      
+      flex-direction:column;
+      justify-contrent:center;
+      align-items:center;
+      
+    }#navbar ul{
+      min-width:100%;
+  }
+  }
+    
